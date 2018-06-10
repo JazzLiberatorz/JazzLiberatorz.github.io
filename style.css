@@ -1,0 +1,299 @@
+
+
+
+/* ========================================== Body Start ======================================================= */
+body{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display:  block;
+	color: #FFF;
+	background-image: url(1111.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0px;
+} 
+
+
+
+.img-circle{
+	width: 200px;
+	border-radius: 50%;
+	border: 5px solid #FFF;
+	margin-top: 70px;
+}
+
+.my-name{
+	width: 100%;
+	font-family:  sans-serif;
+	font-size:35px;
+	margin-bottom: 20px;
+	font-weight: initial;
+	word-spacing: 10px;
+
+
+}
+
+
+.first-letter{
+	color: yellow;
+	font-size: 45px;
+}
+
+.yellow-line{
+	width: 80%;
+	height: 5px;
+	background-color: yellow;
+	color: yellow;
+	border:none;
+}
+ 
+#my-occupation{ 
+	
+	margin-top: 20px;
+	padding-bottom: 20px;
+} 
+
+
+
+
+ .btn{
+ 	background-color: transparent;
+ 	padding: 10px 14px;
+ 	font-size: 16px;
+ 	text-decoration: none;
+ 	color: #FFF;
+ 	border:2px solid #FFF;
+ 	border-radius: 5px;
+ 	margin:10px 10px;
+ 	font-weight: bold;
+ 	 
+ }
+
+.btn:hover{
+	border:2px solid yellow;
+	background-color: transparent;
+
+	color: yellow;
+	cursor: pointer;
+	font-weight: bold;
+	 
+ }
+
+ /* ========================================== Body End ======================================================= */
+/* ========================================== Footer Start ======================================================= */
+ footer {
+color: #ffffff;
+padding-top: 120px ;
+position: relative;
+width: 100%;
+}
+
+
+.list-inline  li {
+display: inline-block;
+padding-right: 15px;
+}
+.list-inline  li a i{
+
+ vertical-align:middle;
+ line-height: 30px;
+font-size: 20px;
+}.socIcon{
+width: 30px;
+height: 30px;
+display:block;
+color:#fff;
+text-align:center;
+border-color: transparent;
+border-radius:50%;
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+-ms-border-radius:50%;
+-o-border-radius:50%;
+}
+.socIcon:hover{
+
+color:#242424;
+background:yellow;
+border-color: transparent;
+
+}
+
+
+
+/* ========================================== Footer End======================================================= */
+
+/* The Modal (background) */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: rgba(255,255,255,0.9);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    color: grey;
+    border:2px solid white;
+    border-radius: 10px;
+    
+    
+}
+
+/* The Close Button */
+.close ,.close1{
+    color: white;
+    background-color:red;
+    float: right;
+    font-size: 18px;
+    width: 26px;
+    border-radius:50%;
+}
+
+.close ,.close1:hover,
+.close ,.close1:focus {
+    color: white;
+    background-color: red;
+    border-color: red;
+   
+    cursor: pointer;
+    
+}
+
+
+.wrapper {
+  
+  display: flex;
+  flex-flow: row ;
+
+}
+ 
+.side-left{
+	display: flex;
+    flex-flow: column ;
+	text-align: left;
+	width: 50%;
+
+}
+
+.side-right{
+	display: flex;
+  flex-flow: column ;
+  width: 50;
+  
+
+}
+
+
+.form-input{
+  display: flex;
+  flex-flow: row ;
+
+}
+.form-control{
+	border:2px solid grey;
+    margin: 10px 10px;
+	padding:10px 10px;
+	border-radius: 10px;
+	resize: none;
+	outline: none;
+
+
+	
+}
+.send{
+	
+    margin: 10px 10px;
+	padding:10px 10px;
+	border-radius: 10px;
+	background-color: grey;
+	border-color: grey;
+	font-weight: bold;
+}
+.send:hover{
+	color: white;
+	background-color: red;
+	border-color: red;
+	cursor: pointer;
+
+}
+.work-content{
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+ 
+
+}
+.work-img{
+ border:2px solid #FFF ;
+ text-align: left;
+ margin: 5px 5px;
+ 	
+}
+.work-img p {
+	padding-left: 10px;
+	
+}
+.work-img a{
+	text-decoration: none;
+	color: grey;
+}
+@media all and (max-width: 1155px) {
+  
+  .main{
+  	
+    	padding: 0;
+    	margin: -20px;
+    
+  }
+  .modal{
+  
+  	padding-top: 5px;
+  }
+  .modal-content{
+  	width: 75%;
+  }
+   .wrapper { 
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+    }
+  .side-left{
+  	width: 100%;
+  	padding:0;
+  	margin: 0;
+
+    }
+    .contact-box{
+    	
+    	padding: 0;
+    	margin: 0;
+    
+    }
+  .side-right{
+  	width: 100%;
+  	flex-flow: column;
+    }
+    .form-input{
+  	flex-flow: column;
+  	width: 100%;
+  }
+
+}																			

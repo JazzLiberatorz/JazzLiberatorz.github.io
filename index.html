@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Loren Haragus</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<!-- Page-->
+    <body>
+	    <div class="container ">
+        
+            <img src="avatar1.jpg" alt="avatar" class="img-circle" style="max-width:100%;height:auto;">
+	            <h1 class="my-name"><span class="first-letter">L</span>OREN <span class="first-letter">H</span>ARAGUS</h1><hr class="yellow-line">	
+                    <p id="my-occupation">Front end developer</p>
+                    	<a href="#" id="myBtn1"  class="btn " >My Work</a>
+                        <a href="#" id="myBtn" class="btn " >Hire Me</a>
+        </div> 
+<!-- Page end-->      
+   
+<!-- Footer-->
+       <footer>
+   
+      
+      <div class="container "> 
+			<div class="build">
+      <ul class="list-inline ">
+			<li><a href="https://github.com/JazzLiberatorz" class="socIcon " target="blank"><i class="fa fa-github fa-2x"></i></a></li>
+			<li><a href="https://twitter.com/HaragusLoren" class="socIcon " target="blank" ><i class="fa fa-twitter fa-2x"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/loren-haragus/" class="socIcon " target="blank"><i class="fa fa-linkedin fa-2x"  ></i></a></li>
+			
+			</ul>
+			</div>
+        
+      </div>
+    </footer>
+
+<!-- Footer end-->
+   
+
+<!-- The Modal Hire Me-->
+<div id="myModal" class=" container modal ">
+
+
+<!-- Modal content --> 
+<div class="modal-content">
+  <span class="close pull-right">&times;</span>
+    <div class="main"><h1>GET IN TOUCH </h1> <hr> 
+    </div>
+         <div class="wrapper">                
+  
+      <div class="side-left">
+                       <div class="contact-box">
+                        <p class="contact-info">If you're working through a challenge and need some help in your project, I'm happy to help you. Let's connect with me and talk about your new project.</p>
+                      
+                        <p class="contact-info"> <span class="fa fa-map-marker"></span><span style="padding-left:8px;"></span>152 Wulfstan Street , London<p>
+                        
+                          <p class="contact-info"><span class="fa fa-phone"></span></span><span style="padding-left:8px;"></span>+40771340113<p>
+                        
+                          <p class="contact-info"><span class="fa fa-envelope"></span></span><span style="padding-left:8px;"></span>loren.haragus@gmail.com</p>
+                        </div>
+                        
+          </div>             
+      <form class="side-right"action="https://formspree.io/loren.haragus@email.com"
+      method="POST">
+
+                         <div class="form-input">
+                          
+                           <input type="name" name="name" class="form-control" id="InputName" minlength="2" placeholder="Your Name" required>
+                                 
+                           <input type="email" class="form-control"id="inputEmail" name="email"  placeholder="Your email" required>
+                         
+                           </div>  
+                           <textarea class="form-control" name="message" rows="7" placeholder="Your Message" required></textarea>
+                           
+                           <button type="submit" class="btn btn-block send">SEND</button>
+                           
+                         
+           </div>
+      </form>     
+</div>
+<!-- Modal content end -->
+</div>
+<!-- The Modal end-->
+
+
+
+<!-- The Modal My Work-->
+<div id="myModal1" class=" container modal ">
+<!-- Modal content --> 
+<div class="modal-content">
+  <span class="close1 pull-right">&times;</span>
+   <div class="main"><h1>Projects </h1> <hr>
+  <div class="work-content">
+  <div class="work-img">
+  <a href="https://codepen.io/JazzLiberatorz/full/bvrdeg" target="blank"><img src="twitch.png" width="300px" height="150px">
+  <p>Twitch App</p></a>
+</div>
+  <div class="work-img">
+  <a href="https://codepen.io/JazzLiberatorz/full/MGPjOQ" target="blank"><img src="calculator.png"width="300px" height="150px">
+  <p>Calculator App</p></a>
+</div>
+  <div class="work-img">
+  <a href="https://codepen.io/JazzLiberatorz/full/eMZgLq" target="blank"><img src="weather.png"width="300px" height="150px">
+  <p>Weather App</p></a>
+</div>
+  <div class="work-img">
+  <a href="https://codepen.io/JazzLiberatorz/full/yKgKvM" target="blank"><img src="wikipedia.png"width="300px" height="150px">
+  <p>Wikipedia App</p></a>
+</div>
+    
+</div>
+<!-- Modal content end -->
+
+</div>
+<!-- The Modal end-->
+
+  <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+// Get the button that opens the modal Hire Me
+var btn = document.getElementById("myBtn");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal Hire Me
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    
+    }
+}
+
+// Get the modal1
+
+
+var modal1 = document.getElementById('myModal1');
+// Get the button that opens the modal Hire Me
+var btn1 = document.getElementById("myBtn1");
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close1")[0];
+// When the user clicks the button, open the modal Hire Me
+btn1.onclick = function() {
+    modal1.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+    modal1.style.display = "none";
+
+}
+
+
+
+
+    </script>
+  </body>
+</html>
